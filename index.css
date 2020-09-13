@@ -1,36 +1,36 @@
-*{margin:0;padding:0;font-family: sans-serif;;}
+*{margin:0;padding:0;font-family: sans-serif;}
 main{width:100%;display: flex;justify-content: space-around;}
 
-section{display: flex; width:80%;   }
+section{display: flex; width:100%;   }
 
 .artical-1{width:30%; background: #173650;padding:100px;}
 
-.image{width:100%;display: flex;align-items: center;justify-content: center; margin-bottom: 20px;}
-.image img{ border-radius: 100px; border:3px solid white;}
+.image{width:100%;display: flex;align-items: center;justify-content: center; margin-bottom: 40px;}
+.image img{ border-radius: 150px; border:7px solid grey;}
 
-.skills{padding:20px 0;font-size: 18px; font-weight: bold;color:white}
+.skills{padding:25px 0;font-size: 27px; font-weight: bold;color:white}
 .ulSkills{padding-left: 20px;}
-.ulSkills li{padding: 10px 0;font-weight: 500;color:silver}
+.ulSkills li{padding: 10px 0;font-weight: 500;color:silver;font-size: 25px;}
 
 .hr{background:silver;height:3px;margin:20px 0}
-.contacts{display: flex; padding:5px 0;}
+.contacts{display: flex; padding:15px 0;}
 .allFa{width:15%;float:left;display: flex;justify-content: space-around;align-items: center;
     color:#173650;   
 }
-.contacts .fa{background: white;padding:6px; border-radius: 20px;}
+.contacts .fa{background: white;padding:10px; border-radius: 20px;}
 .contact{color:silver;width:85% ;padding-left:5px ;display: flex;align-items: center;}
+.contact p{font-size: 25px;}
 
 
-
-.artical-2{width:65%;background:#eee;border-right: 15px solid #173650;border-top: 15px solid #173650;border-bottom: 15px solid #173650;}
+.artical-2{width:65%;background:#eee;border-right: 25px solid #173650;border-top: 25px solid #173650;border-bottom: 25px solid #173650;}
 header{padding:0px 20px;height:auto;}
 .rightImg{display: flex;justify-content: space-around;}
 .name{text-align: center;padding-bottom: 30px;;}
-.name h1{font-size: 50px; font-weight: lighter;padding:10px 0;}
+.name h1{font-size: 65px; font-weight: lighter;padding:10px 0;}
 .paddingL{padding: 20px;}
 
-/* .artical-2 p{ font-weight: bold;line-height: 25px;} */
+/* .artical-2 p{ font-weight: bold;line-height: 40px;} */
 .hr-right{height:5px ;background: white;margin:22px 0}
 
-.EDUCATION,.VISION{color:#173650;font-weight: bolder; font-size: 18px;padding:10px 0;}
-.rightLi{padding:10px 0;font-weight: bold;line-height: 25px;padding-left:25px}
+.EDUCATION,.VISION{color:#173650;font-weight: bolder; font-size: 27px;padding:10px 0;}
+.rightLi{padding:10px 0;font-weight: 450; font-size:23px;line-height: 40px;padding-left:25px}
